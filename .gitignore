@@ -18,7 +18,43 @@
 *.zip
 *.tar.gz
 *.rar
+target/
+build/
+hs_prog_*.log
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Web / Node.js (если проект завязан на npm/yarn)
+node_modules/
+dist/
+.npm
+
+# Логи и временные файлы
+*.tmp
+*.bak
+*.cache
+
+# Файлы окружения с секретами
+.env
+.env.local
+.env.*.local
+
+# Базы данных (если используются локально)
+*.db
+*.sqlite
+*.sqlite3
