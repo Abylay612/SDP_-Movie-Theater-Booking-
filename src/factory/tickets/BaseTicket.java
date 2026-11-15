@@ -1,6 +1,6 @@
 package factory.tickets;
 
-public abstract class BaseTicket{
+public abstract class BaseTicket implements ITicket{
     protected String movieName;
     protected int hallNumber;
     protected int row;
@@ -30,10 +30,6 @@ public abstract class BaseTicket{
 
     public int getSeat() {
         return seat;
-    }
-
-    public double getPrice() {
-        return price;
     }
 
     //Setters
